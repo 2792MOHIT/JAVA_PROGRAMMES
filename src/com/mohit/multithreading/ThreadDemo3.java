@@ -1,7 +1,5 @@
 package com.mohit.multithreading;
 
-
-
 class MyThread3 extends Thread {
 
 }
