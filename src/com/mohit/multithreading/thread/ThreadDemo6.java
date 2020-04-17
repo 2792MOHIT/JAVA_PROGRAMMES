@@ -1,8 +1,9 @@
-package com.mohit.multithreading;
+package com.mohit.multithreading.thread;
 
-class MyThread4 extends Thread {
+class MyThread6 extends Thread {
 
     public void start() {
+        super.start();
         System.out.println("start method");
     }
 
@@ -10,11 +11,11 @@ class MyThread4 extends Thread {
         System.out.println("run method");
     }
 }
-
-public class ThreadDemo4 {
+public class ThreadDemo6 {
     public static void main(String[] args) {
-        MyThread4 t = new MyThread4();
+        MyThread6 t = new MyThread6();
         t.start();
         System.out.println("main method");
+        t.start();
     }
 }

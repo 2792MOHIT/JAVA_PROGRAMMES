@@ -1,4 +1,4 @@
-package com.mohit.multithreading;
+package com.mohit.multithreading.thread;
 
 class MyThread extends Thread {
     @Override
